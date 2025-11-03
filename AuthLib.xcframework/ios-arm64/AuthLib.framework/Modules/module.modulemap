@@ -1,0 +1,8 @@
+framework module AuthLib {
+    umbrella header "AuthLib.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
