@@ -1,3 +1,19 @@
 .DS_Store
 *.xcuserstate
 *.xcworkspace
+
+# Gradle
+.gradle/
+build/
+auth/build/
+*.iml
+.idea/
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# Kotlin
+*.kt.swp
+*.kt.bak

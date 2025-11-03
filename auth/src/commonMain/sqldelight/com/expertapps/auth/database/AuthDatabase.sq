@@ -1,0 +1,25 @@
+CREATE TABLE user (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    created_at INTEGER NOT NULL
+);
+
+insertUser:
+INSERT INTO user(username, password, created_at)
+VALUES (?, ?, ?);
+
+getAllUsers:
+SELECT * FROM user
+ORDER BY created_at DESC
+LIMIT ?
+OFFSET ?;
+
+getUserById:
+SELECT * FROM user WHERE id = ?;
+
+getUsersCount:
+SELECT COUNT(*) FROM user;
+
+deleteUser:
+DELETE FROM user WHERE id = ?;
