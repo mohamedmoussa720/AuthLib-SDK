@@ -24,6 +24,9 @@ class AuthManager(
                 )
             }.executeAsOne()
             
+            // Log success message
+            Logger.d("AuthManager", "$username added successfully")
+            
             ApiResponse(
                 status = ResponseStatus.SUCCESS,
                 data = user
