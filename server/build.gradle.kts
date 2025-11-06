@@ -12,7 +12,7 @@ kotlin {
     cocoapods {
         summary = "KMP HTTP Server Library"
         homepage = "https://github.com/yourorg/kmp-server"
-        version = "1.0.0"
+        version = "1.0.2"
         ios.deploymentTarget = "14.1"
         framework {
             baseName = "ServerLib"

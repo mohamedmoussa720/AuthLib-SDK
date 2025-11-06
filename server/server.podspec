@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'server'
-    spec.version                  = '1.0.0'
+    spec.version                  = '1.0.2'
     spec.homepage                 = 'https://github.com/yourorg/kmp-server'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''

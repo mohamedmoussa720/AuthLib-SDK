@@ -18,7 +18,7 @@ kotlin {
     cocoapods {
         summary = "KMP Auth Library with SQLDelight"
         homepage = "https://github.com/yourorg/kmp-auth"
-        version = "1.0.1"
+        version = "1.0.2"
         ios.deploymentTarget = "14.1"
         framework {
             baseName = "AuthLib"
