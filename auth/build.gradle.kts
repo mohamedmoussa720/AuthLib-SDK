@@ -18,7 +18,7 @@ kotlin {
     cocoapods {
         summary = "KMP Auth Library with SQLDelight"
         homepage = "https://github.com/yourorg/kmp-auth"
-        version = "1.0.2"
+        version = "1.0.3"
         ios.deploymentTarget = "14.1"
         framework {
             baseName = "AuthLib"
@@ -32,6 +32,11 @@ kotlin {
                 implementation("com.squareup.sqldelight:runtime:1.5.5")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
                 implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.0")
+                // Ktor for HTTP server - accepts connections from any client
+                implementation("io.ktor:ktor-server-core:2.3.5")
+                implementation("io.ktor:ktor-server-content-negotiation:2.3.5")
+                implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.5")
+                implementation("io.ktor:ktor-server-cors:2.3.5")
             }
         }
         // val androidMain by getting {
@@ -49,6 +54,8 @@ kotlin {
             iosSimulatorArm64Main.dependsOn(this)
             dependencies {
                 implementation("com.squareup.sqldelight:native-driver:1.5.5")
+                // Ktor server engine for iOS - accepts connections from any client
+                implementation("io.ktor:ktor-server-cio:2.3.5")
             }
         }
     }
