@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class AuthLibAuthManager, AuthLibKotlinUnit, AuthLibApiResponse<T>, AuthLibPaginatedUsers, AuthLibUser, AuthLibEmptyServerResponseCompanion, AuthLibEmptyServerResponse, AuthLibAuthLibrary, AuthLibLogger, AuthLibLoginRequestCompanion, AuthLibLoginRequest, AuthLibServerResponseCompanion, AuthLibServerResponse<T>, AuthLibKotlinArray<T>, AuthLibAuthDatabaseCompanion, AuthLibUser_, AuthLibRuntimeQuery<__covariant RowType>, AuthLibResponseStatus, AuthLibPaginatedUsersCompanion, AuthLibKotlinEnumCompanion, AuthLibKotlinEnum<E>, AuthLibUserCompanion, AuthLibUserDTOCompanion, AuthLibUserDTO, AuthLibDatabaseDriverFactory, AuthLibServerEngine, AuthLibKtor_server_coreApplication, AuthLibKotlinThrowable, AuthLibKotlinException, AuthLibKotlinRuntimeException, AuthLibKotlinIllegalStateException, AuthLibRuntimeTransacterTransaction, AuthLibKtor_utilsPipelinePhase, AuthLibKtor_utilsPipeline<TSubject, TContext>, AuthLibKtor_server_coreApplicationCallPipelineApplicationPhase, AuthLibKtor_server_coreApplicationReceivePipeline, AuthLibKtor_server_coreApplicationSendPipeline, AuthLibKtor_server_coreApplicationCallPipeline, AuthLibKotlinByteArray, AuthLibKotlinx_serialization_coreSerializersModule, AuthLibKotlinx_serialization_coreSerialKind, AuthLibKotlinNothing, AuthLibKtor_server_host_commonConnectorType, AuthLibKtor_eventsEvents, AuthLibKtor_utilsAttributeKey<T>, AuthLibKtor_server_coreApplicationReceivePipelinePhases, AuthLibKtor_server_coreApplicationSendPipelinePhases, AuthLibKotlinByteIterator, AuthLibKtor_server_host_commonConnectorTypeCompanion, AuthLibKtor_utilsLogLevel, AuthLibKtor_eventsEventDefinition<T>, AuthLibKtor_server_coreRequestCookies, AuthLibKtor_httpHttpStatusCode, AuthLibKtor_server_coreResponseCookies, AuthLibKtor_server_coreResponseHeaders, AuthLibKtor_ioMemory, AuthLibKtor_ioChunkBuffer, AuthLibKtor_ioBuffer, AuthLibKtor_ioByteReadPacket, AuthLibKtor_httpCookieEncoding, AuthLibKtor_httpHttpMethod, AuthLibKtor_httpHeadersBuilder, AuthLibKtor_httpURLBuilder, AuthLibKtor_httpHttpStatusCodeCompanion, AuthLibKtor_httpCookie, AuthLibKtor_utilsGMTDate, AuthLibKtor_ioMemoryCompanion, AuthLibKtor_ioBufferCompanion, AuthLibKtor_ioChunkBufferCompanion, AuthLibKtor_ioInputCompanion, AuthLibKtor_ioInput, AuthLibKtor_ioByteReadPacketCompanion, AuthLibKtor_httpHttpMethodCompanion, AuthLibKtor_utilsStringValuesBuilderImpl, AuthLibKtor_httpURLProtocol, AuthLibKtor_httpURLBuilderCompanion, AuthLibKtor_httpUrl, AuthLibKtor_httpVersionCheckResult, AuthLibKtor_utilsGMTDateCompanion, AuthLibKtor_utilsWeekDay, AuthLibKtor_utilsMonth, AuthLibKtor_httpURLProtocolCompanion, AuthLibKtor_httpUrlCompanion, AuthLibKtor_utilsWeekDayCompanion, AuthLibKtor_utilsMonthCompanion;
+@class AuthLibAuthManager, AuthLibKotlinUnit, AuthLibApiResponse<T>, AuthLibPaginatedUsers, AuthLibUser, AuthLibEmptyServerResponseCompanion, AuthLibEmptyServerResponse, AuthLibAuthLibrary, AuthLibLogger, AuthLibLoginRequestCompanion, AuthLibLoginRequest, AuthLibUserDTO, AuthLibUsersListServerResponseCompanion, AuthLibUsersListServerResponse, AuthLibAuthDatabaseCompanion, AuthLibUser_, AuthLibRuntimeQuery<__covariant RowType>, AuthLibResponseStatus, AuthLibPaginatedUsersCompanion, AuthLibKotlinEnumCompanion, AuthLibKotlinEnum<E>, AuthLibKotlinArray<T>, AuthLibUserCompanion, AuthLibUserDTOCompanion, AuthLibDatabaseDriverFactory, AuthLibServerEngine, AuthLibKtor_server_coreApplication, AuthLibKotlinThrowable, AuthLibKotlinException, AuthLibKotlinRuntimeException, AuthLibKotlinIllegalStateException, AuthLibRuntimeTransacterTransaction, AuthLibKtor_utilsPipelinePhase, AuthLibKtor_utilsPipeline<TSubject, TContext>, AuthLibKtor_server_coreApplicationCallPipelineApplicationPhase, AuthLibKtor_server_coreApplicationReceivePipeline, AuthLibKtor_server_coreApplicationSendPipeline, AuthLibKtor_server_coreApplicationCallPipeline, AuthLibKotlinByteArray, AuthLibKotlinx_serialization_coreSerializersModule, AuthLibKotlinx_serialization_coreSerialKind, AuthLibKotlinNothing, AuthLibKtor_server_host_commonConnectorType, AuthLibKtor_eventsEvents, AuthLibKtor_utilsAttributeKey<T>, AuthLibKtor_server_coreApplicationReceivePipelinePhases, AuthLibKtor_server_coreApplicationSendPipelinePhases, AuthLibKotlinByteIterator, AuthLibKtor_server_host_commonConnectorTypeCompanion, AuthLibKtor_utilsLogLevel, AuthLibKtor_eventsEventDefinition<T>, AuthLibKtor_server_coreRequestCookies, AuthLibKtor_httpHttpStatusCode, AuthLibKtor_server_coreResponseCookies, AuthLibKtor_server_coreResponseHeaders, AuthLibKtor_ioMemory, AuthLibKtor_ioChunkBuffer, AuthLibKtor_ioBuffer, AuthLibKtor_ioByteReadPacket, AuthLibKtor_httpCookieEncoding, AuthLibKtor_httpHttpMethod, AuthLibKtor_httpHeadersBuilder, AuthLibKtor_httpURLBuilder, AuthLibKtor_httpHttpStatusCodeCompanion, AuthLibKtor_httpCookie, AuthLibKtor_utilsGMTDate, AuthLibKtor_ioMemoryCompanion, AuthLibKtor_ioBufferCompanion, AuthLibKtor_ioChunkBufferCompanion, AuthLibKtor_ioInputCompanion, AuthLibKtor_ioInput, AuthLibKtor_ioByteReadPacketCompanion, AuthLibKtor_httpHttpMethodCompanion, AuthLibKtor_utilsStringValuesBuilderImpl, AuthLibKtor_httpURLProtocol, AuthLibKtor_httpURLBuilderCompanion, AuthLibKtor_httpUrl, AuthLibKtor_httpVersionCheckResult, AuthLibKtor_utilsGMTDateCompanion, AuthLibKtor_utilsWeekDay, AuthLibKtor_utilsMonth, AuthLibKtor_httpURLProtocolCompanion, AuthLibKtor_httpUrlCompanion, AuthLibKtor_utilsWeekDayCompanion, AuthLibKtor_utilsMonthCompanion;
 
-@protocol AuthLibAuthDatabase, AuthLibRuntimeSqlDriver, AuthLibKotlinx_serialization_coreKSerializer, AuthLibKtor_server_host_commonApplicationEngine, AuthLibAuthDatabaseQueries, AuthLibRuntimeTransactionWithoutReturn, AuthLibRuntimeTransactionWithReturn, AuthLibRuntimeTransacter, AuthLibRuntimeSqlDriverSchema, AuthLibKotlinComparable, AuthLibRuntimeSqlPreparedStatement, AuthLibRuntimeSqlCursor, AuthLibRuntimeCloseable, AuthLibKotlinx_serialization_coreEncoder, AuthLibKotlinx_serialization_coreSerialDescriptor, AuthLibKotlinx_serialization_coreSerializationStrategy, AuthLibKotlinx_serialization_coreDecoder, AuthLibKotlinx_serialization_coreDeserializationStrategy, AuthLibKtor_server_host_commonEngineConnectorConfig, AuthLibKtor_server_host_commonApplicationEngineEnvironment, AuthLibKotlinIterator, AuthLibRuntimeTransactionCallbacks, AuthLibRuntimeQueryListener, AuthLibKotlinSuspendFunction2, AuthLibKtor_utilsAttributes, AuthLibKtor_server_coreApplicationEnvironment, AuthLibKtor_server_coreApplicationCall, AuthLibKotlinCoroutineContext, AuthLibKotlinx_coroutines_coreCoroutineScope, AuthLibKotlinx_serialization_coreCompositeEncoder, AuthLibKotlinAnnotation, AuthLibKotlinx_serialization_coreCompositeDecoder, AuthLibKtor_server_coreApplicationConfig, AuthLibKtor_utilsLogger, AuthLibKotlinFunction, AuthLibKtor_httpParameters, AuthLibKtor_server_coreApplicationRequest, AuthLibKtor_server_coreApplicationResponse, AuthLibKotlinCoroutineContextElement, AuthLibKotlinCoroutineContextKey, AuthLibKotlinx_serialization_coreSerializersModuleCollector, AuthLibKotlinKClass, AuthLibKtor_server_coreApplicationConfigValue, AuthLibKotlinx_coroutines_coreDisposableHandle, AuthLibKotlinMapEntry, AuthLibKtor_utilsStringValues, AuthLibKtor_ioByteReadChannel, AuthLibKtor_httpHeaders, AuthLibKtor_httpRequestConnectionPoint, AuthLibKtor_server_coreResponsePushBuilder, AuthLibKotlinKDeclarationContainer, AuthLibKotlinKAnnotatedElement, AuthLibKotlinKClassifier, AuthLibKtor_ioReadSession, AuthLibKotlinSuspendFunction1, AuthLibKotlinAppendable, AuthLibKtor_httpVersion, AuthLibKtor_ioObjectPool, AuthLibKtor_ioCloseable, AuthLibKtor_utilsStringValuesBuilder, AuthLibKtor_httpParametersBuilder;
+@protocol AuthLibAuthDatabase, AuthLibRuntimeSqlDriver, AuthLibKotlinx_serialization_coreKSerializer, AuthLibKtor_server_host_commonApplicationEngine, AuthLibAuthDatabaseQueries, AuthLibRuntimeTransactionWithoutReturn, AuthLibRuntimeTransactionWithReturn, AuthLibRuntimeTransacter, AuthLibRuntimeSqlDriverSchema, AuthLibKotlinComparable, AuthLibRuntimeSqlPreparedStatement, AuthLibRuntimeSqlCursor, AuthLibRuntimeCloseable, AuthLibKotlinx_serialization_coreEncoder, AuthLibKotlinx_serialization_coreSerialDescriptor, AuthLibKotlinx_serialization_coreSerializationStrategy, AuthLibKotlinx_serialization_coreDecoder, AuthLibKotlinx_serialization_coreDeserializationStrategy, AuthLibKtor_server_host_commonEngineConnectorConfig, AuthLibKtor_server_host_commonApplicationEngineEnvironment, AuthLibRuntimeTransactionCallbacks, AuthLibRuntimeQueryListener, AuthLibKotlinIterator, AuthLibKotlinSuspendFunction2, AuthLibKtor_utilsAttributes, AuthLibKtor_server_coreApplicationEnvironment, AuthLibKtor_server_coreApplicationCall, AuthLibKotlinCoroutineContext, AuthLibKotlinx_coroutines_coreCoroutineScope, AuthLibKotlinx_serialization_coreCompositeEncoder, AuthLibKotlinAnnotation, AuthLibKotlinx_serialization_coreCompositeDecoder, AuthLibKtor_server_coreApplicationConfig, AuthLibKtor_utilsLogger, AuthLibKotlinFunction, AuthLibKtor_httpParameters, AuthLibKtor_server_coreApplicationRequest, AuthLibKtor_server_coreApplicationResponse, AuthLibKotlinCoroutineContextElement, AuthLibKotlinCoroutineContextKey, AuthLibKotlinx_serialization_coreSerializersModuleCollector, AuthLibKotlinKClass, AuthLibKtor_server_coreApplicationConfigValue, AuthLibKotlinx_coroutines_coreDisposableHandle, AuthLibKotlinMapEntry, AuthLibKtor_utilsStringValues, AuthLibKtor_ioByteReadChannel, AuthLibKtor_httpHeaders, AuthLibKtor_httpRequestConnectionPoint, AuthLibKtor_server_coreResponsePushBuilder, AuthLibKotlinKDeclarationContainer, AuthLibKotlinKAnnotatedElement, AuthLibKotlinKClassifier, AuthLibKtor_ioReadSession, AuthLibKotlinSuspendFunction1, AuthLibKotlinAppendable, AuthLibKtor_httpVersion, AuthLibKtor_ioObjectPool, AuthLibKtor_ioCloseable, AuthLibKtor_utilsStringValuesBuilder, AuthLibKtor_httpParametersBuilder;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -325,28 +325,27 @@ __attribute__((swift_name("ServerEngine")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ServerResponse")))
-@interface AuthLibServerResponse<T> : AuthLibBase
-- (instancetype)initWithStatus:(BOOL)status data:(T _Nullable)data error:(NSString * _Nullable)error __attribute__((swift_name("init(status:data:error:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) AuthLibServerResponseCompanion *companion __attribute__((swift_name("companion")));
-- (AuthLibServerResponse<T> *)doCopyStatus:(BOOL)status data:(T _Nullable)data error:(NSString * _Nullable)error __attribute__((swift_name("doCopy(status:data:error:)")));
+__attribute__((swift_name("UsersListServerResponse")))
+@interface AuthLibUsersListServerResponse : AuthLibBase
+- (instancetype)initWithStatus:(BOOL)status data:(NSArray<AuthLibUserDTO *> * _Nullable)data error:(NSString * _Nullable)error __attribute__((swift_name("init(status:data:error:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) AuthLibUsersListServerResponseCompanion *companion __attribute__((swift_name("companion")));
+- (AuthLibUsersListServerResponse *)doCopyStatus:(BOOL)status data:(NSArray<AuthLibUserDTO *> * _Nullable)data error:(NSString * _Nullable)error __attribute__((swift_name("doCopy(status:data:error:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) T _Nullable data __attribute__((swift_name("data")));
+@property (readonly) NSArray<AuthLibUserDTO *> * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable error __attribute__((swift_name("error")));
 @property (readonly) BOOL status __attribute__((swift_name("status")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ServerResponseCompanion")))
-@interface AuthLibServerResponseCompanion : AuthLibBase
+__attribute__((swift_name("UsersListServerResponse.Companion")))
+@interface AuthLibUsersListServerResponseCompanion : AuthLibBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) AuthLibServerResponseCompanion *shared __attribute__((swift_name("shared")));
-- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(AuthLibKotlinArray<id<AuthLibKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
-- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializerTypeSerial0:(id<AuthLibKotlinx_serialization_coreKSerializer>)typeSerial0 __attribute__((swift_name("serializer(typeSerial0:)")));
+@property (class, readonly, getter=shared) AuthLibUsersListServerResponseCompanion *shared __attribute__((swift_name("shared")));
+- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((swift_name("RuntimeTransacter")))
@@ -676,18 +675,6 @@ __attribute__((swift_name("Ktor_server_host_commonApplicationEngine")))
 @property (readonly) id<AuthLibKtor_server_host_commonApplicationEngineEnvironment> environment __attribute__((swift_name("environment")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinArray")))
-@interface AuthLibKotlinArray<T> : AuthLibBase
-+ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(AuthLibInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (id<AuthLibKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
-@end
-
 __attribute__((swift_name("RuntimeTransactionCallbacks")))
 @protocol AuthLibRuntimeTransactionCallbacks
 @required
@@ -737,6 +724,18 @@ __attribute__((swift_name("KotlinEnumCompanion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) AuthLibKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinArray")))
+@interface AuthLibKotlinArray<T> : AuthLibBase
++ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(AuthLibInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (id<AuthLibKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
 __attribute__((swift_name("Ktor_utilsPipeline")))
@@ -998,17 +997,17 @@ __attribute__((swift_name("Ktor_server_host_commonApplicationEngineEnvironment")
 @property (readonly) NSArray<id<AuthLibKtor_server_host_commonEngineConnectorConfig>> *connectors __attribute__((swift_name("connectors")));
 @end
 
+__attribute__((swift_name("RuntimeQueryListener")))
+@protocol AuthLibRuntimeQueryListener
+@required
+- (void)queryResultsChanged __attribute__((swift_name("queryResultsChanged()")));
+@end
+
 __attribute__((swift_name("KotlinIterator")))
 @protocol AuthLibKotlinIterator
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next_ __attribute__((swift_name("next_()")));
-@end
-
-__attribute__((swift_name("RuntimeQueryListener")))
-@protocol AuthLibRuntimeQueryListener
-@required
-- (void)queryResultsChanged __attribute__((swift_name("queryResultsChanged()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
