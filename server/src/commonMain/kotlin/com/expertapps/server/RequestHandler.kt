@@ -4,6 +4,7 @@ import com.expertapps.auth.AuthLibrary
 import com.expertapps.auth.models.ResponseStatus
 import com.expertapps.server.models.HTTPRequest
 import com.expertapps.server.models.HTTPResponse
+import kotlinx.datetime.Clock
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
@@ -94,7 +95,7 @@ class RequestHandler(private val authLibrary: AuthLibrary) : ServerDelegate {
     private fun handleHealth(): HTTPResponse {
         val healthData = mapOf(
             "status" to "healthy",
-            "uptime" to System.currentTimeMillis(),
+            "uptime" to Clock.System.now().toEpochMilliseconds(),
             "platform" to "iOS KMP"
         )
         return HTTPResponse.json(Json.encodeToString(healthData))
@@ -103,7 +104,7 @@ class RequestHandler(private val authLibrary: AuthLibrary) : ServerDelegate {
     private fun handleData(): HTTPResponse {
         val data = mapOf(
             "message" to "Hello from iOS KMP Server",
-            "timestamp" to System.currentTimeMillis(),
+            "timestamp" to Clock.System.now().toEpochMilliseconds(),
             "random" to (1..100).random()
         )
         return HTTPResponse.json(Json.encodeToString(data))
@@ -111,7 +112,7 @@ class RequestHandler(private val authLibrary: AuthLibrary) : ServerDelegate {
     
     private fun handleTime(): HTTPResponse {
         val timeData = mapOf(
-            "time" to System.currentTimeMillis(),
+            "time" to Clock.System.now().toEpochMilliseconds(),
             "timezone" to "UTC"
         )
         return HTTPResponse.json(Json.encodeToString(timeData))
@@ -122,7 +123,7 @@ class RequestHandler(private val authLibrary: AuthLibrary) : ServerDelegate {
             val response = authLibrary.getUsers(page = 1, pageSize = 100)
             
             if (response.status == ResponseStatus.SUCCESS && response.data != null) {
-                val users = response.data.users.map { user ->
+                val users = response.data?.users?.map { user ->
                     UserResponse(
                         id = user.id,
                         username = user.username,
@@ -198,7 +199,11 @@ class RequestHandler(private val authLibrary: AuthLibrary) : ServerDelegate {
                     data = null,
                     error = errorMessage
                 )
-                HTTPResponse.json(Json.encodeToString(errorResponse), statusCode = statusCode)
+                HTTPResponse.json(
+                    Json.encodeToString(errorResponse),
+                    statusCode = statusCode,
+                    headers = mapOf("Access-Control-Allow-Origin" to "*")
+                )
             }
         } catch (e: Exception) {
             val errorMessage = e.message ?: "Internal server error"
@@ -215,7 +220,11 @@ class RequestHandler(private val authLibrary: AuthLibrary) : ServerDelegate {
                 data = null,
                 error = errorMessage
             )
-            HTTPResponse.json(Json.encodeToString(errorResponse), statusCode = statusCode)
+            HTTPResponse.json(
+                Json.encodeToString(errorResponse),
+                statusCode = statusCode,
+                headers = mapOf("Access-Control-Allow-Origin" to "*")
+            )
         }
     }
     

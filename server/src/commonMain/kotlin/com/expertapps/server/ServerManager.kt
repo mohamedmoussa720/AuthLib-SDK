@@ -4,6 +4,7 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.datetime.Clock
 
 class ServerManager(
     private val server: HTTPServer
@@ -75,7 +76,7 @@ class ServerManager(
     }
     
     private fun addLog(message: String) {
-        val timestamp = System.currentTimeMillis()
+        val timestamp = Clock.System.now().toEpochMilliseconds()
         val logEntry = "[$timestamp] $message"
         _logs.value = (listOf(logEntry) + _logs.value).take(50)
     }

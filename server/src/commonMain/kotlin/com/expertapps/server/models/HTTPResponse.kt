@@ -10,10 +10,12 @@ data class HTTPResponse(
             return HTTPResponse(200, headers, body)
         }
 
-        fun json(jsonBody: String, statusCode: Int = 200): HTTPResponse {
+        fun json(jsonBody: String, statusCode: Int = 200, headers: Map<String, String> = emptyMap()): HTTPResponse {
+            val allHeaders = mutableMapOf("Content-Type" to "application/json")
+            allHeaders.putAll(headers)
             return HTTPResponse(
                 statusCode = statusCode,
-                headers = mapOf("Content-Type" to "application/json"),
+                headers = allHeaders,
                 body = jsonBody
             )
         }
