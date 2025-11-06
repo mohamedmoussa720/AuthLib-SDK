@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class AuthLibAuthManager, AuthLibKotlinUnit, AuthLibApiResponse<T>, AuthLibPaginatedUsers, AuthLibUser, AuthLibAuthLibrary, AuthLibLogger, AuthLibLoginRequest, AuthLibServerResponse<T>, AuthLibAuthDatabaseCompanion, AuthLibUser_, AuthLibRuntimeQuery<__covariant RowType>, AuthLibResponseStatus, AuthLibKotlinEnumCompanion, AuthLibKotlinEnum<E>, AuthLibKotlinArray<T>, AuthLibDatabaseDriverFactory, AuthLibServerEngine, AuthLibKtor_server_coreApplication, AuthLibKotlinThrowable, AuthLibKotlinException, AuthLibKotlinRuntimeException, AuthLibKotlinIllegalStateException, AuthLibRuntimeTransacterTransaction, AuthLibKtor_utilsPipelinePhase, AuthLibKtor_utilsPipeline<TSubject, TContext>, AuthLibKtor_server_coreApplicationCallPipelineApplicationPhase, AuthLibKtor_server_coreApplicationReceivePipeline, AuthLibKtor_server_coreApplicationSendPipeline, AuthLibKtor_server_coreApplicationCallPipeline, AuthLibKotlinByteArray, AuthLibKtor_server_host_commonConnectorType, AuthLibKtor_eventsEvents, AuthLibKtor_utilsAttributeKey<T>, AuthLibKtor_server_coreApplicationReceivePipelinePhases, AuthLibKtor_server_coreApplicationSendPipelinePhases, AuthLibKotlinByteIterator, AuthLibKtor_server_host_commonConnectorTypeCompanion, AuthLibKtor_utilsLogLevel, AuthLibKtor_eventsEventDefinition<T>, AuthLibKtor_server_coreRequestCookies, AuthLibKtor_httpHttpStatusCode, AuthLibKtor_server_coreResponseCookies, AuthLibKtor_server_coreResponseHeaders, AuthLibKtor_ioMemory, AuthLibKtor_ioChunkBuffer, AuthLibKtor_ioBuffer, AuthLibKtor_ioByteReadPacket, AuthLibKtor_httpCookieEncoding, AuthLibKtor_httpHttpMethod, AuthLibKtor_httpHeadersBuilder, AuthLibKtor_httpURLBuilder, AuthLibKtor_httpHttpStatusCodeCompanion, AuthLibKtor_httpCookie, AuthLibKtor_utilsGMTDate, AuthLibKtor_ioMemoryCompanion, AuthLibKtor_ioBufferCompanion, AuthLibKtor_ioChunkBufferCompanion, AuthLibKtor_ioInputCompanion, AuthLibKtor_ioInput, AuthLibKtor_ioByteReadPacketCompanion, AuthLibKtor_httpHttpMethodCompanion, AuthLibKtor_utilsStringValuesBuilderImpl, AuthLibKtor_httpURLProtocol, AuthLibKtor_httpURLBuilderCompanion, AuthLibKtor_httpUrl, AuthLibKtor_httpVersionCheckResult, AuthLibKtor_utilsGMTDateCompanion, AuthLibKtor_utilsWeekDay, AuthLibKtor_utilsMonth, AuthLibKtor_httpURLProtocolCompanion, AuthLibKtor_httpUrlCompanion, AuthLibKtor_utilsWeekDayCompanion, AuthLibKtor_utilsMonthCompanion;
+@class AuthLibAuthManager, AuthLibKotlinUnit, AuthLibApiResponse<T>, AuthLibPaginatedUsers, AuthLibUser, AuthLibEmptyServerResponseCompanion, AuthLibEmptyServerResponse, AuthLibAuthLibrary, AuthLibLogger, AuthLibLoginRequestCompanion, AuthLibLoginRequest, AuthLibServerResponseCompanion, AuthLibServerResponse<T>, AuthLibKotlinArray<T>, AuthLibAuthDatabaseCompanion, AuthLibUser_, AuthLibRuntimeQuery<__covariant RowType>, AuthLibResponseStatus, AuthLibPaginatedUsersCompanion, AuthLibKotlinEnumCompanion, AuthLibKotlinEnum<E>, AuthLibUserCompanion, AuthLibUserDTOCompanion, AuthLibUserDTO, AuthLibDatabaseDriverFactory, AuthLibServerEngine, AuthLibKtor_server_coreApplication, AuthLibKotlinThrowable, AuthLibKotlinException, AuthLibKotlinRuntimeException, AuthLibKotlinIllegalStateException, AuthLibRuntimeTransacterTransaction, AuthLibKtor_utilsPipelinePhase, AuthLibKtor_utilsPipeline<TSubject, TContext>, AuthLibKtor_server_coreApplicationCallPipelineApplicationPhase, AuthLibKtor_server_coreApplicationReceivePipeline, AuthLibKtor_server_coreApplicationSendPipeline, AuthLibKtor_server_coreApplicationCallPipeline, AuthLibKotlinByteArray, AuthLibKotlinx_serialization_coreSerializersModule, AuthLibKotlinx_serialization_coreSerialKind, AuthLibKotlinNothing, AuthLibKtor_server_host_commonConnectorType, AuthLibKtor_eventsEvents, AuthLibKtor_utilsAttributeKey<T>, AuthLibKtor_server_coreApplicationReceivePipelinePhases, AuthLibKtor_server_coreApplicationSendPipelinePhases, AuthLibKotlinByteIterator, AuthLibKtor_server_host_commonConnectorTypeCompanion, AuthLibKtor_utilsLogLevel, AuthLibKtor_eventsEventDefinition<T>, AuthLibKtor_server_coreRequestCookies, AuthLibKtor_httpHttpStatusCode, AuthLibKtor_server_coreResponseCookies, AuthLibKtor_server_coreResponseHeaders, AuthLibKtor_ioMemory, AuthLibKtor_ioChunkBuffer, AuthLibKtor_ioBuffer, AuthLibKtor_ioByteReadPacket, AuthLibKtor_httpCookieEncoding, AuthLibKtor_httpHttpMethod, AuthLibKtor_httpHeadersBuilder, AuthLibKtor_httpURLBuilder, AuthLibKtor_httpHttpStatusCodeCompanion, AuthLibKtor_httpCookie, AuthLibKtor_utilsGMTDate, AuthLibKtor_ioMemoryCompanion, AuthLibKtor_ioBufferCompanion, AuthLibKtor_ioChunkBufferCompanion, AuthLibKtor_ioInputCompanion, AuthLibKtor_ioInput, AuthLibKtor_ioByteReadPacketCompanion, AuthLibKtor_httpHttpMethodCompanion, AuthLibKtor_utilsStringValuesBuilderImpl, AuthLibKtor_httpURLProtocol, AuthLibKtor_httpURLBuilderCompanion, AuthLibKtor_httpUrl, AuthLibKtor_httpVersionCheckResult, AuthLibKtor_utilsGMTDateCompanion, AuthLibKtor_utilsWeekDay, AuthLibKtor_utilsMonth, AuthLibKtor_httpURLProtocolCompanion, AuthLibKtor_httpUrlCompanion, AuthLibKtor_utilsWeekDayCompanion, AuthLibKtor_utilsMonthCompanion;
 
-@protocol AuthLibAuthDatabase, AuthLibRuntimeSqlDriver, AuthLibKtor_server_host_commonApplicationEngine, AuthLibAuthDatabaseQueries, AuthLibRuntimeTransactionWithoutReturn, AuthLibRuntimeTransactionWithReturn, AuthLibRuntimeTransacter, AuthLibRuntimeSqlDriverSchema, AuthLibKotlinComparable, AuthLibRuntimeSqlPreparedStatement, AuthLibRuntimeSqlCursor, AuthLibRuntimeCloseable, AuthLibKtor_server_host_commonEngineConnectorConfig, AuthLibKtor_server_host_commonApplicationEngineEnvironment, AuthLibRuntimeTransactionCallbacks, AuthLibRuntimeQueryListener, AuthLibKotlinIterator, AuthLibKotlinSuspendFunction2, AuthLibKtor_utilsAttributes, AuthLibKtor_server_coreApplicationEnvironment, AuthLibKtor_server_coreApplicationCall, AuthLibKotlinCoroutineContext, AuthLibKotlinx_coroutines_coreCoroutineScope, AuthLibKtor_server_coreApplicationConfig, AuthLibKtor_utilsLogger, AuthLibKotlinFunction, AuthLibKtor_httpParameters, AuthLibKtor_server_coreApplicationRequest, AuthLibKtor_server_coreApplicationResponse, AuthLibKotlinCoroutineContextElement, AuthLibKotlinCoroutineContextKey, AuthLibKtor_server_coreApplicationConfigValue, AuthLibKotlinx_coroutines_coreDisposableHandle, AuthLibKotlinMapEntry, AuthLibKtor_utilsStringValues, AuthLibKtor_ioByteReadChannel, AuthLibKtor_httpHeaders, AuthLibKtor_httpRequestConnectionPoint, AuthLibKtor_server_coreResponsePushBuilder, AuthLibKtor_ioReadSession, AuthLibKotlinSuspendFunction1, AuthLibKotlinAppendable, AuthLibKtor_httpVersion, AuthLibKtor_ioObjectPool, AuthLibKtor_ioCloseable, AuthLibKtor_utilsStringValuesBuilder, AuthLibKtor_httpParametersBuilder;
+@protocol AuthLibAuthDatabase, AuthLibRuntimeSqlDriver, AuthLibKotlinx_serialization_coreKSerializer, AuthLibKtor_server_host_commonApplicationEngine, AuthLibAuthDatabaseQueries, AuthLibRuntimeTransactionWithoutReturn, AuthLibRuntimeTransactionWithReturn, AuthLibRuntimeTransacter, AuthLibRuntimeSqlDriverSchema, AuthLibKotlinComparable, AuthLibRuntimeSqlPreparedStatement, AuthLibRuntimeSqlCursor, AuthLibRuntimeCloseable, AuthLibKotlinx_serialization_coreEncoder, AuthLibKotlinx_serialization_coreSerialDescriptor, AuthLibKotlinx_serialization_coreSerializationStrategy, AuthLibKotlinx_serialization_coreDecoder, AuthLibKotlinx_serialization_coreDeserializationStrategy, AuthLibKtor_server_host_commonEngineConnectorConfig, AuthLibKtor_server_host_commonApplicationEngineEnvironment, AuthLibKotlinIterator, AuthLibRuntimeTransactionCallbacks, AuthLibRuntimeQueryListener, AuthLibKotlinSuspendFunction2, AuthLibKtor_utilsAttributes, AuthLibKtor_server_coreApplicationEnvironment, AuthLibKtor_server_coreApplicationCall, AuthLibKotlinCoroutineContext, AuthLibKotlinx_coroutines_coreCoroutineScope, AuthLibKotlinx_serialization_coreCompositeEncoder, AuthLibKotlinAnnotation, AuthLibKotlinx_serialization_coreCompositeDecoder, AuthLibKtor_server_coreApplicationConfig, AuthLibKtor_utilsLogger, AuthLibKotlinFunction, AuthLibKtor_httpParameters, AuthLibKtor_server_coreApplicationRequest, AuthLibKtor_server_coreApplicationResponse, AuthLibKotlinCoroutineContextElement, AuthLibKotlinCoroutineContextKey, AuthLibKotlinx_serialization_coreSerializersModuleCollector, AuthLibKotlinKClass, AuthLibKtor_server_coreApplicationConfigValue, AuthLibKotlinx_coroutines_coreDisposableHandle, AuthLibKotlinMapEntry, AuthLibKtor_utilsStringValues, AuthLibKtor_ioByteReadChannel, AuthLibKtor_httpHeaders, AuthLibKtor_httpRequestConnectionPoint, AuthLibKtor_server_coreResponsePushBuilder, AuthLibKotlinKDeclarationContainer, AuthLibKotlinKAnnotatedElement, AuthLibKotlinKClassifier, AuthLibKtor_ioReadSession, AuthLibKotlinSuspendFunction1, AuthLibKotlinAppendable, AuthLibKtor_httpVersion, AuthLibKtor_ioObjectPool, AuthLibKtor_ioCloseable, AuthLibKtor_utilsStringValuesBuilder, AuthLibKtor_httpParametersBuilder;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -213,6 +213,35 @@ __attribute__((swift_name("DatabaseDriverFactory")))
 - (id<AuthLibRuntimeSqlDriver>)createDriver __attribute__((swift_name("createDriver()")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("EmptyServerResponse")))
+@interface AuthLibEmptyServerResponse : AuthLibBase
+- (instancetype)initWithStatus:(BOOL)status data:(NSString * _Nullable)data error:(NSString * _Nullable)error __attribute__((swift_name("init(status:data:error:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) AuthLibEmptyServerResponseCompanion *companion __attribute__((swift_name("companion")));
+- (AuthLibEmptyServerResponse *)doCopyStatus:(BOOL)status data:(NSString * _Nullable)data error:(NSString * _Nullable)error __attribute__((swift_name("doCopy(status:data:error:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable data __attribute__((swift_name("data")));
+@property (readonly) NSString * _Nullable error __attribute__((swift_name("error")));
+@property (readonly) BOOL status __attribute__((swift_name("status")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("EmptyServerResponse.Companion")))
+@interface AuthLibEmptyServerResponseCompanion : AuthLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) AuthLibEmptyServerResponseCompanion *shared __attribute__((swift_name("shared")));
+- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HttpServer")))
 @interface AuthLibHttpServer : AuthLibBase
@@ -253,12 +282,23 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("LoginRequest")))
 @interface AuthLibLoginRequest : AuthLibBase
 - (instancetype)initWithUsername:(NSString *)username password:(NSString *)password __attribute__((swift_name("init(username:password:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) AuthLibLoginRequestCompanion *companion __attribute__((swift_name("companion")));
 - (AuthLibLoginRequest *)doCopyUsername:(NSString *)username password:(NSString *)password __attribute__((swift_name("doCopy(username:password:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *password __attribute__((swift_name("password")));
 @property (readonly) NSString *username __attribute__((swift_name("username")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LoginRequest.Companion")))
+@interface AuthLibLoginRequestCompanion : AuthLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) AuthLibLoginRequestCompanion *shared __attribute__((swift_name("shared")));
+- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -288,6 +328,7 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ServerResponse")))
 @interface AuthLibServerResponse<T> : AuthLibBase
 - (instancetype)initWithStatus:(BOOL)status data:(T _Nullable)data error:(NSString * _Nullable)error __attribute__((swift_name("init(status:data:error:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) AuthLibServerResponseCompanion *companion __attribute__((swift_name("companion")));
 - (AuthLibServerResponse<T> *)doCopyStatus:(BOOL)status data:(T _Nullable)data error:(NSString * _Nullable)error __attribute__((swift_name("doCopy(status:data:error:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -295,6 +336,17 @@ __attribute__((swift_name("ServerResponse")))
 @property (readonly) T _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable error __attribute__((swift_name("error")));
 @property (readonly) BOOL status __attribute__((swift_name("status")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ServerResponseCompanion")))
+@interface AuthLibServerResponseCompanion : AuthLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) AuthLibServerResponseCompanion *shared __attribute__((swift_name("shared")));
+- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(AuthLibKotlinArray<id<AuthLibKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializerTypeSerial0:(id<AuthLibKotlinx_serialization_coreKSerializer>)typeSerial0 __attribute__((swift_name("serializer(typeSerial0:)")));
 @end
 
 __attribute__((swift_name("RuntimeTransacter")))
@@ -360,10 +412,16 @@ __attribute__((swift_name("ApiResponse")))
 @property (readonly) AuthLibResponseStatus *status __attribute__((swift_name("status")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PaginatedUsers")))
 @interface AuthLibPaginatedUsers : AuthLibBase
 - (instancetype)initWithUsers:(NSArray<AuthLibUser *> *)users currentPage:(int32_t)currentPage pageSize:(int32_t)pageSize totalCount:(int64_t)totalCount totalPages:(int32_t)totalPages __attribute__((swift_name("init(users:currentPage:pageSize:totalCount:totalPages:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) AuthLibPaginatedUsersCompanion *companion __attribute__((swift_name("companion")));
 - (AuthLibPaginatedUsers *)doCopyUsers:(NSArray<AuthLibUser *> *)users currentPage:(int32_t)currentPage pageSize:(int32_t)pageSize totalCount:(int64_t)totalCount totalPages:(int32_t)totalPages __attribute__((swift_name("doCopy(users:currentPage:pageSize:totalCount:totalPages:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -373,6 +431,16 @@ __attribute__((swift_name("PaginatedUsers")))
 @property (readonly) int64_t totalCount __attribute__((swift_name("totalCount")));
 @property (readonly) int32_t totalPages __attribute__((swift_name("totalPages")));
 @property (readonly) NSArray<AuthLibUser *> *users __attribute__((swift_name("users")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PaginatedUsers.Companion")))
+@interface AuthLibPaginatedUsersCompanion : AuthLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) AuthLibPaginatedUsersCompanion *shared __attribute__((swift_name("shared")));
+- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((swift_name("KotlinComparable")))
@@ -405,10 +473,16 @@ __attribute__((swift_name("ResponseStatus")))
 @property (class, readonly) NSArray<AuthLibResponseStatus *> *entries __attribute__((swift_name("entries")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("User")))
 @interface AuthLibUser : AuthLibBase
 - (instancetype)initWithId:(int64_t)id username:(NSString *)username password:(NSString *)password createdAt:(int64_t)createdAt __attribute__((swift_name("init(id:username:password:createdAt:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) AuthLibUserCompanion *companion __attribute__((swift_name("companion")));
 - (AuthLibUser *)doCopyId:(int64_t)id username:(NSString *)username password:(NSString *)password createdAt:(int64_t)createdAt __attribute__((swift_name("doCopy(id:username:password:createdAt:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -417,6 +491,45 @@ __attribute__((swift_name("User")))
 @property (readonly) int64_t id __attribute__((swift_name("id")));
 @property (readonly) NSString *password __attribute__((swift_name("password")));
 @property (readonly) NSString *username __attribute__((swift_name("username")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("User.Companion")))
+@interface AuthLibUserCompanion : AuthLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) AuthLibUserCompanion *shared __attribute__((swift_name("shared")));
+- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserDTO")))
+@interface AuthLibUserDTO : AuthLibBase
+- (instancetype)initWithId:(int64_t)id username:(NSString *)username createdAt:(int64_t)createdAt __attribute__((swift_name("init(id:username:createdAt:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) AuthLibUserDTOCompanion *companion __attribute__((swift_name("companion")));
+- (AuthLibUserDTO *)doCopyId:(int64_t)id username:(NSString *)username createdAt:(int64_t)createdAt __attribute__((swift_name("doCopy(id:username:createdAt:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int64_t createdAt __attribute__((swift_name("createdAt")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSString *username __attribute__((swift_name("username")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserDTO.Companion")))
+@interface AuthLibUserDTOCompanion : AuthLibBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) AuthLibUserDTOCompanion *shared __attribute__((swift_name("shared")));
+- (id<AuthLibKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -529,6 +642,25 @@ __attribute__((swift_name("RuntimeSqlDriver")))
 - (AuthLibRuntimeTransacterTransaction *)doNewTransaction __attribute__((swift_name("doNewTransaction()")));
 @end
 
+__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
+@protocol AuthLibKotlinx_serialization_coreSerializationStrategy
+@required
+- (void)serializeEncoder:(id<AuthLibKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<AuthLibKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
+@protocol AuthLibKotlinx_serialization_coreDeserializationStrategy
+@required
+- (id _Nullable)deserializeDecoder:(id<AuthLibKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+@property (readonly) id<AuthLibKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
+@protocol AuthLibKotlinx_serialization_coreKSerializer <AuthLibKotlinx_serialization_coreSerializationStrategy, AuthLibKotlinx_serialization_coreDeserializationStrategy>
+@required
+@end
+
 __attribute__((swift_name("Ktor_server_host_commonApplicationEngine")))
 @protocol AuthLibKtor_server_host_commonApplicationEngine
 @required
@@ -542,6 +674,18 @@ __attribute__((swift_name("Ktor_server_host_commonApplicationEngine")))
 - (void)stopGracePeriodMillis:(int64_t)gracePeriodMillis timeoutMillis:(int64_t)timeoutMillis __attribute__((swift_name("stop(gracePeriodMillis:timeoutMillis:)")));
 @property (readonly) AuthLibKtor_server_coreApplication *application __attribute__((swift_name("application")));
 @property (readonly) id<AuthLibKtor_server_host_commonApplicationEngineEnvironment> environment __attribute__((swift_name("environment")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinArray")))
+@interface AuthLibKotlinArray<T> : AuthLibBase
++ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(AuthLibInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (id<AuthLibKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
 __attribute__((swift_name("RuntimeTransactionCallbacks")))
@@ -593,18 +737,6 @@ __attribute__((swift_name("KotlinEnumCompanion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) AuthLibKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinArray")))
-@interface AuthLibKotlinArray<T> : AuthLibBase
-+ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(AuthLibInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (id<AuthLibKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
 __attribute__((swift_name("Ktor_utilsPipeline")))
@@ -697,6 +829,147 @@ __attribute__((swift_name("RuntimeSqlCursor")))
 - (BOOL)next __attribute__((swift_name("next()")));
 @end
 
+__attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
+@protocol AuthLibKotlinx_serialization_coreEncoder
+@required
+- (id<AuthLibKotlinx_serialization_coreCompositeEncoder>)beginCollectionDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor collectionSize:(int32_t)collectionSize __attribute__((swift_name("beginCollection(descriptor:collectionSize:)")));
+- (id<AuthLibKotlinx_serialization_coreCompositeEncoder>)beginStructureDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (void)encodeBooleanValue:(BOOL)value __attribute__((swift_name("encodeBoolean(value:)")));
+- (void)encodeByteValue:(int8_t)value __attribute__((swift_name("encodeByte(value:)")));
+- (void)encodeCharValue:(unichar)value __attribute__((swift_name("encodeChar(value:)")));
+- (void)encodeDoubleValue:(double)value __attribute__((swift_name("encodeDouble(value:)")));
+- (void)encodeEnumEnumDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)enumDescriptor index:(int32_t)index __attribute__((swift_name("encodeEnum(enumDescriptor:index:)")));
+- (void)encodeFloatValue:(float)value __attribute__((swift_name("encodeFloat(value:)")));
+- (id<AuthLibKotlinx_serialization_coreEncoder>)encodeInlineDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("encodeInline(descriptor:)")));
+- (void)encodeIntValue:(int32_t)value __attribute__((swift_name("encodeInt(value:)")));
+- (void)encodeLongValue:(int64_t)value __attribute__((swift_name("encodeLong(value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)encodeNotNullMark __attribute__((swift_name("encodeNotNullMark()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)encodeNull __attribute__((swift_name("encodeNull()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)encodeNullableSerializableValueSerializer:(id<AuthLibKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableValue(serializer:value:)")));
+- (void)encodeSerializableValueSerializer:(id<AuthLibKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableValue(serializer:value:)")));
+- (void)encodeShortValue:(int16_t)value __attribute__((swift_name("encodeShort(value:)")));
+- (void)encodeStringValue:(NSString *)value __attribute__((swift_name("encodeString(value:)")));
+@property (readonly) AuthLibKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
+@protocol AuthLibKotlinx_serialization_coreSerialDescriptor
+@required
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (NSArray<id<AuthLibKotlinAnnotation>> *)getElementAnnotationsIndex:(int32_t)index __attribute__((swift_name("getElementAnnotations(index:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id<AuthLibKotlinx_serialization_coreSerialDescriptor>)getElementDescriptorIndex:(int32_t)index __attribute__((swift_name("getElementDescriptor(index:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (int32_t)getElementIndexName:(NSString *)name __attribute__((swift_name("getElementIndex(name:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (NSString *)getElementNameIndex:(int32_t)index __attribute__((swift_name("getElementName(index:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (BOOL)isElementOptionalIndex:(int32_t)index __attribute__((swift_name("isElementOptional(index:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) NSArray<id<AuthLibKotlinAnnotation>> *annotations __attribute__((swift_name("annotations")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) int32_t elementsCount __attribute__((swift_name("elementsCount")));
+@property (readonly) BOOL isInline __attribute__((swift_name("isInline")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) BOOL isNullable __attribute__((swift_name("isNullable")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) AuthLibKotlinx_serialization_coreSerialKind *kind __attribute__((swift_name("kind")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) NSString *serialName __attribute__((swift_name("serialName")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
+@protocol AuthLibKotlinx_serialization_coreDecoder
+@required
+- (id<AuthLibKotlinx_serialization_coreCompositeDecoder>)beginStructureDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (BOOL)decodeBoolean __attribute__((swift_name("decodeBoolean()")));
+- (int8_t)decodeByte __attribute__((swift_name("decodeByte()")));
+- (unichar)decodeChar __attribute__((swift_name("decodeChar()")));
+- (double)decodeDouble __attribute__((swift_name("decodeDouble()")));
+- (int32_t)decodeEnumEnumDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)enumDescriptor __attribute__((swift_name("decodeEnum(enumDescriptor:)")));
+- (float)decodeFloat __attribute__((swift_name("decodeFloat()")));
+- (id<AuthLibKotlinx_serialization_coreDecoder>)decodeInlineDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeInline(descriptor:)")));
+- (int32_t)decodeInt __attribute__((swift_name("decodeInt()")));
+- (int64_t)decodeLong __attribute__((swift_name("decodeLong()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (BOOL)decodeNotNullMark __attribute__((swift_name("decodeNotNullMark()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (AuthLibKotlinNothing * _Nullable)decodeNull __attribute__((swift_name("decodeNull()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id _Nullable)decodeNullableSerializableValueDeserializer:(id<AuthLibKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeNullableSerializableValue(deserializer:)")));
+- (id _Nullable)decodeSerializableValueDeserializer:(id<AuthLibKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeSerializableValue(deserializer:)")));
+- (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
+- (NSString *)decodeString __attribute__((swift_name("decodeString()")));
+@property (readonly) AuthLibKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
 __attribute__((swift_name("Ktor_server_host_commonEngineConnectorConfig")))
 @protocol AuthLibKtor_server_host_commonEngineConnectorConfig
 @required
@@ -725,17 +998,17 @@ __attribute__((swift_name("Ktor_server_host_commonApplicationEngineEnvironment")
 @property (readonly) NSArray<id<AuthLibKtor_server_host_commonEngineConnectorConfig>> *connectors __attribute__((swift_name("connectors")));
 @end
 
-__attribute__((swift_name("RuntimeQueryListener")))
-@protocol AuthLibRuntimeQueryListener
-@required
-- (void)queryResultsChanged __attribute__((swift_name("queryResultsChanged()")));
-@end
-
 __attribute__((swift_name("KotlinIterator")))
 @protocol AuthLibKotlinIterator
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next_ __attribute__((swift_name("next_()")));
+@end
+
+__attribute__((swift_name("RuntimeQueryListener")))
+@protocol AuthLibRuntimeQueryListener
+@required
+- (void)queryResultsChanged __attribute__((swift_name("queryResultsChanged()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -844,6 +1117,117 @@ __attribute__((swift_name("KotlinByteArray")))
 - (AuthLibKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
+@protocol AuthLibKotlinx_serialization_coreCompositeEncoder
+@required
+- (void)encodeBooleanElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(BOOL)value __attribute__((swift_name("encodeBooleanElement(descriptor:index:value:)")));
+- (void)encodeByteElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int8_t)value __attribute__((swift_name("encodeByteElement(descriptor:index:value:)")));
+- (void)encodeCharElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(unichar)value __attribute__((swift_name("encodeCharElement(descriptor:index:value:)")));
+- (void)encodeDoubleElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(double)value __attribute__((swift_name("encodeDoubleElement(descriptor:index:value:)")));
+- (void)encodeFloatElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(float)value __attribute__((swift_name("encodeFloatElement(descriptor:index:value:)")));
+- (id<AuthLibKotlinx_serialization_coreEncoder>)encodeInlineElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("encodeInlineElement(descriptor:index:)")));
+- (void)encodeIntElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int32_t)value __attribute__((swift_name("encodeIntElement(descriptor:index:value:)")));
+- (void)encodeLongElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int64_t)value __attribute__((swift_name("encodeLongElement(descriptor:index:value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)encodeNullableSerializableElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<AuthLibKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeSerializableElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<AuthLibKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeShortElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int16_t)value __attribute__((swift_name("encodeShortElement(descriptor:index:value:)")));
+- (void)encodeStringElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(NSString *)value __attribute__((swift_name("encodeStringElement(descriptor:index:value:)")));
+- (void)endStructureDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (BOOL)shouldEncodeElementDefaultDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
+@property (readonly) AuthLibKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
+@interface AuthLibKotlinx_serialization_coreSerializersModule : AuthLibBase
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)dumpToCollector:(id<AuthLibKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id<AuthLibKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<AuthLibKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<AuthLibKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id<AuthLibKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<AuthLibKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id<AuthLibKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<AuthLibKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
+@end
+
+__attribute__((swift_name("KotlinAnnotation")))
+@protocol AuthLibKotlinAnnotation
+@required
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+__attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
+@interface AuthLibKotlinx_serialization_coreSerialKind : AuthLibBase
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
+@protocol AuthLibKotlinx_serialization_coreCompositeDecoder
+@required
+- (BOOL)decodeBooleanElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeBooleanElement(descriptor:index:)")));
+- (int8_t)decodeByteElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeByteElement(descriptor:index:)")));
+- (unichar)decodeCharElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeCharElement(descriptor:index:)")));
+- (int32_t)decodeCollectionSizeDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeCollectionSize(descriptor:)")));
+- (double)decodeDoubleElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeDoubleElement(descriptor:index:)")));
+- (int32_t)decodeElementIndexDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeElementIndex(descriptor:)")));
+- (float)decodeFloatElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeFloatElement(descriptor:index:)")));
+- (id<AuthLibKotlinx_serialization_coreDecoder>)decodeInlineElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeInlineElement(descriptor:index:)")));
+- (int32_t)decodeIntElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeIntElement(descriptor:index:)")));
+- (int64_t)decodeLongElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeLongElement(descriptor:index:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id _Nullable)decodeNullableSerializableElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<AuthLibKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeNullableSerializableElement(descriptor:index:deserializer:previousValue:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (BOOL)decodeSequentially __attribute__((swift_name("decodeSequentially()")));
+- (id _Nullable)decodeSerializableElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<AuthLibKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeSerializableElement(descriptor:index:deserializer:previousValue:)")));
+- (int16_t)decodeShortElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeShortElement(descriptor:index:)")));
+- (NSString *)decodeStringElementDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
+- (void)endStructureDescriptor:(id<AuthLibKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+@property (readonly) AuthLibKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinNothing")))
+@interface AuthLibKotlinNothing : AuthLibBase
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -996,6 +1380,55 @@ __attribute__((swift_name("KotlinByteIterator")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (AuthLibByte *)next_ __attribute__((swift_name("next_()")));
 - (int8_t)nextByte __attribute__((swift_name("nextByte()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
+@protocol AuthLibKotlinx_serialization_coreSerializersModuleCollector
+@required
+- (void)contextualKClass:(id<AuthLibKotlinKClass>)kClass provider:(id<AuthLibKotlinx_serialization_coreKSerializer> (^)(NSArray<id<AuthLibKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
+- (void)contextualKClass:(id<AuthLibKotlinKClass>)kClass serializer:(id<AuthLibKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
+- (void)polymorphicBaseClass:(id<AuthLibKotlinKClass>)baseClass actualClass:(id<AuthLibKotlinKClass>)actualClass actualSerializer:(id<AuthLibKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
+- (void)polymorphicDefaultBaseClass:(id<AuthLibKotlinKClass>)baseClass defaultDeserializerProvider:(id<AuthLibKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)"))) __attribute__((deprecated("Deprecated in favor of function with more precise name: polymorphicDefaultDeserializer")));
+- (void)polymorphicDefaultDeserializerBaseClass:(id<AuthLibKotlinKClass>)baseClass defaultDeserializerProvider:(id<AuthLibKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
+- (void)polymorphicDefaultSerializerBaseClass:(id<AuthLibKotlinKClass>)baseClass defaultSerializerProvider:(id<AuthLibKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
+@end
+
+__attribute__((swift_name("KotlinKDeclarationContainer")))
+@protocol AuthLibKotlinKDeclarationContainer
+@required
+@end
+
+__attribute__((swift_name("KotlinKAnnotatedElement")))
+@protocol AuthLibKotlinKAnnotatedElement
+@required
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+__attribute__((swift_name("KotlinKClassifier")))
+@protocol AuthLibKotlinKClassifier
+@required
+@end
+
+__attribute__((swift_name("KotlinKClass")))
+@protocol AuthLibKotlinKClass <AuthLibKotlinKDeclarationContainer, AuthLibKotlinKAnnotatedElement, AuthLibKotlinKClassifier>
+@required
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
+@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
+@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
 @end
 
 __attribute__((objc_subclassing_restricted))
