@@ -1,5 +1,8 @@
 package com.expertapps.auth.models
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class User(
     val id: Long = 0,
     val username: String,
@@ -7,6 +10,14 @@ data class User(
     val createdAt: Long
 )
 
+@Serializable
+data class UserDTO(
+    val id: Long,
+    val username: String,
+    val createdAt: Long
+)
+
+@Serializable
 data class PaginatedUsers(
     val users: List<User>,
     val currentPage: Int,

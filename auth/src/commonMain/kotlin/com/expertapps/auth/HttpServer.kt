@@ -33,9 +33,16 @@ data class LoginRequest(
 )
 
 @Serializable
-data class ServerResponse<T>(
+data class UsersListServerResponse(
     val status: Boolean,
-    val data: T? = null,
+    val data: List<com.expertapps.auth.models.UserDTO>? = null,
+    val error: String? = null
+)
+
+@Serializable
+data class EmptyServerResponse(
+    val status: Boolean,
+    val data: String? = null,
     val error: String? = null
 )
 
@@ -178,14 +185,14 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                     
                     if (response.status == ResponseStatus.SUCCESS && response.data != null) {
                         val users = response.data.users.map { user ->
-                            mapOf(
-                                "id" to user.id,
-                                "username" to user.username,
-                                "createdAt" to user.createdAt
+                            com.expertapps.auth.models.UserDTO(
+                                id = user.id,
+                                username = user.username,
+                                createdAt = user.createdAt
                             )
                         }
                         
-                        val apiResponse = ServerResponse(
+                        val apiResponse = UsersListServerResponse(
                             status = true,
                             data = users,
                             error = null
@@ -194,7 +201,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                         call.respond(HttpStatusCode.OK, apiResponse)
                         Logger.d("HttpServer", "GET /api/users - Success: ${users.size} users sent")
                     } else {
-                        val apiResponse = ServerResponse<List<Map<String, Any>>>(
+                        val apiResponse = UsersListServerResponse(
                             status = false,
                             data = null,
                             error = response.error ?: "Failed to get users"
@@ -204,7 +211,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                     }
                 } catch (e: Exception) {
                     Logger.e("HttpServer", "GET /api/users - Exception: ${e.message}")
-                    val apiResponse = ServerResponse<List<Map<String, Any>>>(
+                    val apiResponse = UsersListServerResponse(
                         status = false,
                         data = null,
                         error = e.message ?: "Internal server error"
@@ -227,7 +234,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                     val loginRequest = call.receive<LoginRequest>()
                     
                     if (loginRequest.username.isBlank() || loginRequest.password.isBlank()) {
-                        val apiResponse = ServerResponse<Nothing>(
+                        val apiResponse = EmptyServerResponse(
                             status = false,
                             data = null,
                             error = "Username and password are required"
@@ -241,7 +248,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                     val response = authLibrary.saveUser(loginRequest.username, loginRequest.password)
                     
                     if (response.status == ResponseStatus.SUCCESS) {
-                        val apiResponse = ServerResponse<Nothing>(
+                        val apiResponse = EmptyServerResponse(
                             status = true,
                             data = null,
                             error = null
@@ -261,7 +268,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                             HttpStatusCode.InternalServerError // 500
                         }
                         
-                        val apiResponse = ServerResponse<Nothing>(
+                        val apiResponse = EmptyServerResponse(
                             status = false,
                             data = null,
                             error = if (isConstraintError) "Username already exists" else errorMsg
@@ -271,7 +278,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                     }
                 } catch (e: Exception) {
                     Logger.e("HttpServer", "POST /api/login - Exception: ${e.message}")
-                    val apiResponse = ServerResponse<Nothing>(
+                    val apiResponse = EmptyServerResponse(
                         status = false,
                         data = null,
                         error = e.message ?: "Internal server error"
@@ -286,7 +293,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                     val userId = call.parameters["userId"]?.toLongOrNull()
                     
                     if (userId == null) {
-                        val apiResponse = ServerResponse<Nothing>(
+                        val apiResponse = EmptyServerResponse(
                             status = false,
                             data = null,
                             error = "Invalid user ID"
@@ -300,7 +307,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                     val response = authLibrary.deleteUser(userId)
                     
                     if (response.status == ResponseStatus.SUCCESS) {
-                        val apiResponse = ServerResponse<Nothing>(
+                        val apiResponse = EmptyServerResponse(
                             status = true,
                             data = null,
                             error = null
@@ -308,7 +315,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                         call.respond(HttpStatusCode.OK, apiResponse)
                         Logger.d("HttpServer", "DELETE /api/users/$userId - Success")
                     } else {
-                        val apiResponse = ServerResponse<Nothing>(
+                        val apiResponse = EmptyServerResponse(
                             status = false,
                             data = null,
                             error = response.error ?: "Failed to delete user"
@@ -318,7 +325,7 @@ class HttpServer(private val authLibrary: AuthLibrary) {
                     }
                 } catch (e: Exception) {
                     Logger.e("HttpServer", "DELETE /api/users - Exception: ${e.message}")
-                    val apiResponse = ServerResponse<Nothing>(
+                    val apiResponse = EmptyServerResponse(
                         status = false,
                         data = null,
                         error = e.message ?: "Internal server error"

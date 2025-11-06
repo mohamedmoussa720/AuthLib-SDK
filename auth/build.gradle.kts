@@ -1,6 +1,7 @@
 plugins {
     kotlin("multiplatform") version "1.9.22"
     kotlin("native.cocoapods") version "1.9.22"
+    kotlin("plugin.serialization") version "1.9.22"
     // id("com.android.library") version "8.3.0"  // Disabled for iOS-only
     id("com.squareup.sqldelight") version "1.5.5"
 }
@@ -32,6 +33,7 @@ kotlin {
                 implementation("com.squareup.sqldelight:runtime:1.5.5")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
                 implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.0")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
                 // Ktor for HTTP server - accepts connections from any client
                 implementation("io.ktor:ktor-server-core:2.3.5")
                 implementation("io.ktor:ktor-server-content-negotiation:2.3.5")
